@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Password Generato</title>
+    <script src = 'script.js' defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow|Mali|Quicksand" rel="stylesheet">
+</head>
+<body>
+   <div class = "block">
+    <input type="checkbox" checked id = "letters" class = "check_box"> <label for ="letters">Letters(Lower case)</label><br>
+    <input type="checkbox" id = "letUp" class = "check_box"> <label for ="letUp">Letters(Upper case)</span><br></label>
+    <input type="checkbox" id = "numbers" class = "check_box"> <label for ="numbers">Numbers</span><br></label>
+    <input type="checkbox" id = "symb" class = "check_box"> <label for ="symb">Additional characters</span><br><br></label>
+    <input type="range" value = "5" min = "0" max="50" step="1" class = "pass_length"><br>
+    <div class = "output_block"><p class = "text"><span>Key Length: 5 </span></p>
+    <button class = "btn">GENERATE</button><br></div>
+    <span id = "out"></span></div>
+</body>
+</html>
